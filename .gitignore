@@ -1,0 +1,18 @@
+# FOLDERS
+/bin/
+/target/
+/dev/
+/.settings/
+
+# EXTENSIONS
+*.prefs
+*.class
+*.versionsBackup
+*.releaseBackup
+
+# SYSTEM
+.DS_Store
+Thumbs.db
+
+# CUSTOM
+src/main/webapp/dev/config/

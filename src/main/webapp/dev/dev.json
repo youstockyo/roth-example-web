@@ -1,0 +1,22 @@
+{
+	"service":
+	{
+		"test":
+		{
+			"initIndex":
+			{
+				"request":[],
+				"response":
+				[
+					"data",
+					"empty"
+				]
+			},
+			"initTest":
+			{
+				"request":[],
+				"response":[]
+			}
+		}
+	}
+}
