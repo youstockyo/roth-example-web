@@ -1,25 +1,25 @@
 <div data-group="submitMessage" style="width:400px;">
 	<div class="form-group has-feedback">
-		<label>Email</label>
+		<label data-text="email"></label>
 		<input class="form-control"
 			type="email"
 			name="email"
-			placeholder="Enter email"
+			data-text-attr="placeholder:enterEmail"
 			data-required="true"
 			data-validate="email(value);"
 			data-onblur="this.validate(element);" />
 	</div>
 	<div class="form-group has-feedback">
-		<label>Name</label>
+		<label data-text="name"></label>
 		<input class="form-control"
 			type="text"
 			name="name"
-			placeholder="Enter name"
+			data-text-attr="placeholder:enterName"
 			data-required="true"
 			data-onblur="this.validate(element);" />
 	</div>
 	<div class="form-group has-feedback">
-		<label>Message</label>
+		<label data-text="message"></label>
 		<textarea class="form-control" 
 			rows="3"
 			name="message"
@@ -32,7 +32,7 @@
 		data-method="submitMessage"
 		data-success="alert('submitted message'); hash.next('test', 'index');"
 		data-error="alert('failed submit');"
-		data-onclick="this.submit(element);">
-		Submit
+		data-onclick="this.submit(element);"
+		data-text="submit">
 	</button>
 </div>

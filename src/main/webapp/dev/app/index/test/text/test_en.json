@@ -13,6 +13,15 @@
 		{
 			"indexPage":"Index Page",
 			"peopleTable":"People Table"
+		},
+		"Contact":
+		{
+			"email":"Email",
+			"enterEmail":"Enter Email",
+			"name":"Name",
+			"enterName":"Enter Name",
+			"message":"Message",
+			"submit":"Submit"
 		}
 	},
 	"component":

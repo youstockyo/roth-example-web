@@ -13,6 +13,15 @@
 		{
 			"indexPage":"Página de Inicio",
 			"peopleTable":"Personas Mesa"
+		},
+		"Contact":
+		{
+			"email":"Email",
+			"enterEmail":"Ingrese Email",
+			"name":"Nombre",
+			"enterName":"Ingrese su nombre",
+			"message":"Mensaje",
+			"submit":"Enviar"
 		}
 	},
 	"component":
