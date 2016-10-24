@@ -10,6 +10,6 @@ Review the existing sample code and any relevant framework code. You should be a
 
 # Tasks
 - Add a page to project (an html and js file)
-- Create in init mock service for the page
-- Use the template engine to display the data (see Persons.html as example)
+- Create an init mock service for the page
+- Use the template engine to display the data (see Persons.html)
 - Add some styling to the style.css
