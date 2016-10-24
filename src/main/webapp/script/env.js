@@ -2,8 +2,8 @@
 
 var Version =
 {
-	ROTH	 			: "0.1.5-SNAPSHOT",
-	JQUERY	 			: "1.11.2",
+	ROTH	 			: "0.2.0-SNAPSHOT",
+	JQUERY	 			: "2.2.0",
 	BOOTSTRAP	 		: "3.3.5"
 };
 
@@ -53,65 +53,26 @@ setDependencies(
 		"source" : "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/" + Version.BOOTSTRAP + "/js/bootstrap.min.js"
 	},
 	{
-		"local" : "script/roth-lib-js-env.js",
+		"local" : "external/script/roth-lib-js-env.js",
 		"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-env/" + Version.ROTH + "/roth-lib-js-env.js",
 		"exclude" : true
 	},
 	{
 		"local" : "external/script/roth-lib-js-framework.js",
 		"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-framework/" + Version.ROTH + "/roth-lib-js-framework.js",
-		"dev" : false
-	},
-	{
-		"local" : "external/script/roth-lib-js.js",
-		"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js/" + Version.ROTH + "/roth-lib-js.js",
-		"dev" : true
-	},
-	{
-		"local" : "external/script/roth-lib-js-template.js",
-		"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-template/" + Version.ROTH + "/roth-lib-js-template.js",
-		"dev" : true
-	},
-	{
-		"local" : "external/script/roth-lib-js-client.js",
-		"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-client/" + Version.ROTH + "/roth-lib-js-client.js",
-		"dev" : true
-	},
-	{
-		"local" : "external/script/roth-lib-js-client-dev.js",
-		"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-client-dev/" + Version.ROTH + "/roth-lib-js-client-dev.js",
-		"dev" : true,
 		"assets" :
 		[
 			{
-				"local" : "external/view/component/select.html",
-				"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-client-dev/" + Version.ROTH + "/view/component/select.html"
-			},
-			{
-				"local" : "external/view/layout/dev.html",
-				"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-client-dev/" + Version.ROTH + "/view/layout/dev.html"
-			},
-			{
-				"local" : "external/view/page/dev/config.html",
-				"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-client-dev/" + Version.ROTH + "/view/page/dev/config.html"
-			},
-			{
-				"local" : "external/view/page/dev/links.html",
-				"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-client-dev/" + Version.ROTH + "/view/page/dev/links.html"
-			},
-			{
-				"local" : "external/view/page/dev/services.html",
-				"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-client-dev/" + Version.ROTH + "/view/page/dev/services.html"
+				"local" : "dev/dev.html",
+				"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-web/" + Version.ROTH + "/dev.html"
 			}
 		]
 	},
 	{
-		"local" : "external/style/dev.css",
-		"source" : "http://dist.roth.cm/roth/lib/js/roth-lib-js-client-dev/" + Version.ROTH + "/style/dev.css",
-		"dev" : true
+		"local" : "script/web.js"
 	},
 	{
-		"local" : "script/client.js"
+		"local" : "style/style.css"
 	},
 	{
 		"local" : "dev/config/override.js",

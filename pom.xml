@@ -23,8 +23,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>roth.lib.java</groupId>
-			<artifactId>roth-lib-java-static</artifactId>
-			<version>0.2.4-SNAPSHOT</version>
+			<artifactId>roth-lib-java-web</artifactId>
+			<version>0.2.7-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>

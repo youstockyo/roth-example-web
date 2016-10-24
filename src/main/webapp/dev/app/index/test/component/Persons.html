@@ -1,0 +1,22 @@
+{% if(!isEmpty(data.persons)) { %}
+<table class="table table-striped table-bordered table-hover">
+	<thead>
+		<tr>
+			<th data-text="name"></th>
+			<th data-text="email"></th>
+			<th data-text="phone"></th>
+		</tr>
+	</thead>
+	<tbody>
+		{% forEach(data.persons, function(person, i, loop) { %}
+		<tr>
+			<td>{{ person.firstName }} {{ person.lastName }}</td>
+			<td>{{ person.email }}</td>
+			<td>{{ this.formatPhone(person.phone) }}</td>
+		</tr>
+		{% }, this); %}
+	</tbody>
+</table>
+{% } else { %}
+<h3>no results</h3>
+{% } %}

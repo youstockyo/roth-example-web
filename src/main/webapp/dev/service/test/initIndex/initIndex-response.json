@@ -1,15 +1,3 @@
 {
-	"message":"Hello World!",
-	"persons":
-	[
-		{
-			"name":"Jared"
-		},
-		{
-			"name":"James"
-		},
-		{
-			"name":"Scott"
-		}
-	]
+	"description":"<p>Some formatted <b>html</b> to display</p>"
 }

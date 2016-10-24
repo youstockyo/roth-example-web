@@ -1,0 +1,27 @@
+{
+	"layout":
+	{
+		"Test":
+		{
+			"testLayout":"Disposición de Prueba",
+			"loggedIn":"usuario se registra en"
+		}
+	},
+	"page":
+	{
+		"Index":
+		{
+			"indexPage":"Página de Inicio",
+			"peopleTable":"Personas Mesa"
+		}
+	},
+	"component":
+	{
+		"Persons":
+		{
+			"name":"Nombre",
+			"email":"Email",
+			"phone":"Teléfono"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"layout":
+	{
+		"Test":
+		{
+			"testLayout":"Test Layout",
+			"loggedIn":"user is logged in"
+		}
+	},
+	"page":
+	{
+		"Index":
+		{
+			"indexPage":"Index Page",
+			"peopleTable":"People Table"
+		}
+	},
+	"component":
+	{
+		"Persons":
+		{
+			"name":"Name",
+			"email":"Email",
+			"phone":"Phone"
+		}
+	}
+}

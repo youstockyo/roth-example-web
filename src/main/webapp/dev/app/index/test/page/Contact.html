@@ -1,0 +1,38 @@
+<div data-group="submitMessage" style="width:400px;">
+	<div class="form-group has-feedback">
+		<label>Email</label>
+		<input class="form-control"
+			type="email"
+			name="email"
+			placeholder="Enter email"
+			data-required="true"
+			data-validate="email(value);"
+			data-onblur="this.validate(element);" />
+	</div>
+	<div class="form-group has-feedback">
+		<label>Name</label>
+		<input class="form-control"
+			type="text"
+			name="name"
+			placeholder="Enter name"
+			data-required="true"
+			data-onblur="this.validate(element);" />
+	</div>
+	<div class="form-group has-feedback">
+		<label>Message</label>
+		<textarea class="form-control" 
+			rows="3"
+			name="message"
+			data-required="true"
+			data-onblur="this.validate(element);"></textarea>
+	</div>
+	<button class="btn btn-primary"
+		type="submit"
+		data-service="test"
+		data-method="submitMessage"
+		data-success="alert('submitted message'); hash.next('test', 'index');"
+		data-error="alert('failed submit');"
+		data-onclick="this.submit(element);">
+		Submit
+	</button>
+</div>

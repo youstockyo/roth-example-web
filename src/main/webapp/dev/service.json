@@ -1,0 +1,33 @@
+{
+	"test":
+	{
+		"initTest":
+		{
+			"request":[],
+			"response":[]
+		},
+		"initIndex":
+		{
+			"request":[],
+			"response":[]
+		},
+		"initPersons":
+		{
+			"request":[],
+			"response":
+			[
+				"data",
+				"empty"
+			]
+		},
+		"submitMessage":
+		{
+			"request":[],
+			"response":
+			[
+				"success",
+				"error"
+			]
+		}
+	}
+}
