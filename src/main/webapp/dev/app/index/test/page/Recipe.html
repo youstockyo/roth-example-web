@@ -1,0 +1,35 @@
+<section class="recipe">
+  <h1>{{ data.recipes.cheesebread.name }}</h1>
+  <p class="author">By: <a href="{{ data.recipes.cheesebread.source_url }}">
+    {{ data.recipes.cheesebread.source }}
+  </a></p>
+
+  <div class="image col-md-4"></div>
+
+  <div class="steps col-md-8">
+    <div class="ingredients col-md-6">
+      <h3>Ingredients</h3>
+      <ul>
+        {% forEach(data.recipes.cheesebread.ingredients, function(i) { %}
+          <li>{{ i }}</li>
+        {% }, this); %}
+      </ul>
+    </div>
+    <div class="equipment col-md-6">
+      <h3>Equipment</h3>
+      <ul>
+        {% forEach(data.recipes.cheesebread.equipment, function(i) { %}
+          <li>{{ i }}</li>
+        {% }, this); %}
+      </ul>
+    </div>
+    <div class="instructions col-md-12">
+      <h3>Instructions</h3>
+      <ol>
+        {% forEach(data.recipes.cheesebread.instructions, function(i) { %}
+          <li>{{{ i }}}</li>
+        {% }, this); %}
+      </ol>
+    </div>
+  </div>
+</section>

@@ -28,6 +28,11 @@
 				"success",
 				"error"
 			]
+		},
+		"initRecipe":
+		{
+			"request":[],
+			"response":[]
 		}
 	}
 }

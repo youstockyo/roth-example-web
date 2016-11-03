@@ -2,3 +2,48 @@ body
 {
 	margin : 10px;
 }
+
+/* Recipe
+---------------------------*/
+.recipe {
+  margin-top: 40px;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  padding-bottom: 40px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.recipe .author {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.recipe .image {
+  background-image: url("http://atmedia.imgix.net/578700696de5a9ca7f2e59f29da6b7bc62ab63f1?auto=compress&w=800.0&fit=max");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.recipe .steps ul, .recipe .steps ol {
+  padding-left: 15px;
+}
+
+.recipe .steps li {
+  margin-bottom: 10px;
+}
+
+.recipe .steps .ingredients h3, .recipe .steps .equipment h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 992px) {
+  .recipe .steps {
+    margin-top: 20px;
+  }
+
+  .recipe .steps .ingredients h3, .recipe .steps .equipment h3 {
+    margin-top: 20px;
+  }
+}

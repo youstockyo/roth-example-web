@@ -1,0 +1,32 @@
+{
+  "recipes": {
+    "cheesebread": {
+      "name": "Pull-Apart Cheese Bread",
+      "image": "http://atmedia.imgix.net/578700696de5a9ca7f2e59f29da6b7bc62ab63f1?auto=compress&w=800.0&fit=max",
+      "source": "The Kitchn",
+      "source_url": "http://www.thekitchn.com/how-to-make-pull-apart-cheese-bread-cooking-lessons-from-the-kitchn-166432",
+      "ingredients": [
+          "1 round loaf artisan bread (16- to 20-ounce loaf)",
+          "1 1/2 to 2 cups (6 to 8 ounces) shredded cheese",
+          "Optional mix-ins: cooked bacon or sausage, minced chives or sliced green onions, red pepper flakes, chili powder",
+          "1/4 cup unsalted butter"
+      ],
+      "equipment": [
+          "Bread knife",
+          "Cutting board",
+          "Mixing bowls",
+          "Aluminum foil"
+      ],
+      "instructions": [
+          "<strong>Preheat the oven to 350°F.</strong>",
+          "<strong>Slice the bread into cubes:</strong> Slice the bread horizontally and vertically into 1-inch cubes. Do not slice all the way through the loaf — leave bottom of the loaf intact with the bread pieces still attached.",
+          "<strong>Combine the cheese with any mix-ins:</strong> Toss the cheese and mix-ins together in a small bowl. This helps make sure the ingredients are evenly distributed when you stuff the bread.",
+          "<strong>Stuff the cheese into the bread:</strong> Gently stuff the cheese into the bread between the slices. Stuff between the vertical slices first, then go back and fill in the spaces between the horizontal cuts — it's a bit easier this way! It also helps to have a helper who can hold the slices apart while you stuff.",
+          "<strong>Pour melted butter over top:</strong> Transfer the stuffed loaf to a sheet of foil. Melt the butter in the microwave, then pour evenly over the loaf.",
+          "<strong>Wrap the loaf tightly in foil.</strong>",
+          "<strong>Bake the loaf:</strong> Bake the loaf for 20 minutes. Uncover the top and bake for another 10 minutes, until the cheese is totally melted and the top of the loaf is crispy.",
+          "<strong>Serve immediately:</strong> Serve the loaf while still hot from the oven."
+      ]
+    }
+  }
+}
